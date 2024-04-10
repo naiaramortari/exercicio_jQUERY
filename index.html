@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas Diárias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>  
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <form>
+        <label for="tarefas">Nova Tarefa:</label>
+        <input type="text" id="novaTarefa" required placeholder="Ex.: Consulta Médica">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="limparLista" class="limpar">Limpar lista</button>
+    </form>
+    <h3 id="lista">Lista de tarefa diária</h3>
+
+    <ul></ul>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+
+    <footer>
+        &copy; Desenvolvido por Naiara Campos Mortari
+    </footer>
+</body>
+</html>
